@@ -1,0 +1,23 @@
+# Byte-compiled / Python artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+
+# PyTorch checkpoints and large runs
+runs/
+*.pt
+
+# YOLO dataset image/label caches
+dataset/labels/*.cache
+dataset/labels/*/*.cache
+
+# Virtual environment
+venv/
+env/
+.env
+
+# OS / IDE files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

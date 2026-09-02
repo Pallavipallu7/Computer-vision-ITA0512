@@ -1,0 +1,18 @@
+# Dataset configuration for Industrial Defect Detection (NEU-DET Benchmark)
+# Path can be relative to project root or absolute
+path: dataset # dataset root directory
+train: images/train # train images (relative to 'path')
+val: images/val     # validation images (relative to 'path')
+test: images/test   # test images (relative to 'path')
+
+# Number of classes
+nc: 6
+
+# Class names
+names:
+  0: crazing
+  1: inclusion
+  2: patches
+  3: pitted_surface
+  4: rolled-in_scale
+  5: scratches
